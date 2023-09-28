@@ -1,0 +1,78 @@
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header-logo {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.header-menu {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.header-menu a {
+    color: rgb(18, 15, 15);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.header-cart {
+    display: flex;
+    justify-content: center;
+}
+
+.header-cart a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    background-color: blue;
+}
+
+
+.user-menu{
+    border: 1px solid black;
+    padding: 10px;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+
+
+.user-menu ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+   
+}
+
+
+.active{
+    width: max-content;
+    height: max-content;
+    visibility: visible;
+}
+
+
+.basket_menu{
+    background-color: rgb(189, 184, 184);
+    position: absolute;
+    top: 0;
+    right: -290px;
+    z-index: 5;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+
+.active_basket{
+    height: 100vh;
+    width: 80vh;
+    visibility: visible;
+}
